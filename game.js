@@ -945,7 +945,7 @@ Game = {
       Game.spawnAsteroids();
 
       Game.nextBigAlienTime = Date.now() + 30000 + (20000 * Math.random());
-
+/*Oh no, what is this??? NOOO*/
       this.state = 'spawn_ship';
     },
     spawn_ship: function () {
