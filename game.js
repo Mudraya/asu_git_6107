@@ -752,6 +752,7 @@ AlienBullet.prototype = new Bullet();
 Asteroid = function () {
   this.init("asteroid",
 <<<<<<< HEAD
+<<<<<<< HEAD
             [-10,   0,
               -5,   7,
               -3,   4,
@@ -774,6 +775,12 @@ Asteroid = function () {
         -4, -10,
         -4,  -5]);
 >>>>>>> add brake
+=======
+      [0, 0
+      7, 7
+      0, 7
+      7, 0]);
+>>>>>>> change game.js
 
   this.visible = true;
   this.scale = 6;
